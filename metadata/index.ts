@@ -7,7 +7,7 @@ export const siteDescription = '记录！整理！分享！'
 export const include = ['笔记', '生活']
 
 /** Repo */
-export const githubRepoLink = 'https://github.com/qiananran'
+export const githubRepoLink = 'https://github.com/qiananran/bloomdocs'
 /** Discord */
 export const discordLink = 'https://discord.gg/'
 
