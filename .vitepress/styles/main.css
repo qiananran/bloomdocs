@@ -133,6 +133,8 @@ html, body {
     font-size: 2.5rem;
   }
 
+  
+
   /* 首页子标题样式 */
   .VPHomeHero > .container > .main > .text {
     padding-top: 20px;
@@ -142,6 +144,13 @@ html, body {
   /* 首页介绍样式 */
   .VPHomeHero > .container > .main > .tagline {
     padding-top: 20px;
+  }
+}
+
+@media (min-width: 960px) {
+  [data-v-46180d65] .image-src {
+      max-width: 650px;
+      max-height: 320px;
   }
 }
 

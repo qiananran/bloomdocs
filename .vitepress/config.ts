@@ -44,14 +44,14 @@ export default defineConfig({
     ],
     ['link', {
       rel: 'icon',
-      href: '/logo.svg',
+      href: 'https://photohosting.oss-cn-hangzhou.aliyuncs.com/captures/grinning-face-with-big-eyes_1f603.png',
       type: 'image/svg+xml',
     }],
     [
       'link',
       {
         rel: 'alternate icon',
-        href: '/favicon.ico',
+        href: 'https://photohosting.oss-cn-hangzhou.aliyuncs.com/captures/grinning-face-with-big-eyes_1f603.png',
         type: 'image/png',
         sizes: '16x16',
       },
@@ -134,12 +134,11 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: githubRepoLink },
-      { icon: 'discord', link: discordLink },
+      // { icon: 'discord', link: discordLink },
     ],
     footer: {
       message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',
-      copyright:
-        '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT Nólëbase 的创作者们',
+      copyright: `<a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 </a> |  ©2022-${new Date().getFullYear()} 笔记内容由<a target="_blank" href="${githubRepoLink}"> Qiananran 创作</a>`,
     },
     search: {
       provider: 'local',

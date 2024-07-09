@@ -1,41 +1,41 @@
 ---
+# https://vitepress.dev/reference/default-theme-home-page
 layout: home
-sidebar: false
 
-title: Nólëbase
-titleTemplate: 记录回忆，知识和畅想的地方
+title: 🌸 Bloom'Docs
+titleTemplate: 
+
 
 hero:
-  name: g~Nj$3J2^
-  text: 记录回忆，知识和畅想的地方
-  tagline: 以 Nólëbase 为名，读作 nole-base，取自意为「知识」的昆雅语 nólë 和意为「基础」的英文 base，即「知识库」
+  name: Bloom'Docs
+  text: 记录！梳理！分享
+  tagline: 层楼终究误少年，自由早晚乱余生。
   image:
-    src: /logo.svg
-    alt: Vitest
+    src: /logo4.png
+    alt: logo
   actions:
     - theme: brand
-      text: 开始阅读
-      link: /笔记/index
+      text: 快速开始
+      link: /笔记/
     - theme: alt
-      text: 加入 Discord 服务器
-      link: https://discord.gg/XuNFDcDZGj
-    - theme: alt
-      text: GitHub 上浏览
-      link: https://github.com/nolebase/nolebase
+      text: 在GitHub上查看
+      link: https://github.com/qiananran
 
 features:
-  - title: 多样的主题和内容
-    details: 本知识库和所生成的页面均由创作者们维护，涉及到生活中各方面知识和内容，也不乏我们的回忆和畅想。
-    icon: 🌈
-  - title: 皆为 Markdown
-    details: 使用 Markdown 和 Markdown 拓展语法编写和记录笔记，每一个页面都是 Markdown 文件。
-    icon: 📃
-  - title: 由 VitePress 驱动
-    details: 基于 Vite 的强大静态文档页面生成器，它生成了我们知识库的页面，提供了简单易用的主题和工具。
-    icon: 🚀
-  - title: 由 Obsidian 驱动
-    details: 强大的知识库管理工具，支持花样繁多的插件和拓展，让知识管理变得更加简单。
-    icon: 🗃
+  - icon:
+        src: https://photohosting.oss-cn-hangzhou.aliyuncs.com/captures/exploding-head_1f92f.png   
+    title: 关注于
+    details: Ros Matlab simulink
+    link: 'https://www.fwenqian.com'
+    linkText: '了解更多'
+  - icon: 
+      src: https://photohosting.oss-cn-hangzhou.aliyuncs.com/captures/grimacing-face_1f62c.png
+    title: 致力于
+    details: 使用 Ros 构建无人驾驶等关于机器人自动化技术，为机器人赋予灵魂
+  - icon: 
+      src: https://photohosting.oss-cn-hangzhou.aliyuncs.com/captures/winking-face_1f609.png
+    title: 联系我
+    details: 电子邮件：fanjunran@outlook.com
+    link: 'mailto:fanjunran@outlook.com'
+    linkText: '给我发消息'
 ---
-
-<HomePage />
